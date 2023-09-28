@@ -13,7 +13,7 @@ header {
     justify-content: space-between;
     margin-top: 40px;
     padding: 0 75px;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 
 #logo {
@@ -40,7 +40,6 @@ header {
 main {
     display: flex;
     justify-content: space-around;
-    /* gap: 4rem; */
 }
 
 /* Info */
@@ -50,6 +49,7 @@ main {
     flex-direction: column;
     justify-content: center;
     margin-left: 5%;
+    margin-bottom: 15%;
 }
 
 .info h1 {
@@ -80,16 +80,19 @@ main {
 /* Showcase */
 .container {
     margin-right: 5%;
+    max-width: 60%;
 }
 
 .container .showcase-image {
     width: 100%;
+    height: 70%;
 }
 
 /* Author */
 
 .author {
     width: 40%;
+    height: 17%;
     background-color: #181719;
     position: relative;
     bottom: 10%;
