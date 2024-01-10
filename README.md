@@ -4,7 +4,7 @@ Welcome to the Interior Consultant Webpage project! This project is a simple int
 
 ## Demo
 
-You can check out the live demo of the Interior Consultant Webpage [here]([https://lamphrangmi-lamin.github.io/interior-consultant/](https://clinquant-pika-ce6267.netlify.app/)).
+You can check out the live demo of the Interior Consultant Webpage [here]([https://lamphrangmi-lamin.github.io/interior-consultant/](https://clinquant-pika-ce6267.netlify.app/).
 
 ## Features
 
