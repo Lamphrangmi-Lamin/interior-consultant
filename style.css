@@ -208,6 +208,45 @@ main {
         margin-right: 1rem;
     }
 
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%; /* Adjust the width as needed */
+        height: 100%;
+        background-color: #181719;
+        padding-top: 50px;
+        z-index: 1;
+        display: none; /* Initially hidden */
+    }
+    
+    .sidebar.active {
+        display: block; /* Show the sidebar when active */
+    }
+
+    .close-icon img {
+        width: 36px;
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+    }
+
+    .menu-links a {
+        display: block;
+        margin-bottom: 2rem;
+        font-size: 1.3rem;
+    }
+
+    .menu-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        top: 25%;
+        right: 10%;
+    }
+    
 }
 
 @media screen and (min-width: 1020px) {
